@@ -12,7 +12,6 @@ function PokemonHome() {
     useContext(PokemonContext);
   return (
     <div className="home-container">
-      <section id="top-section"></section>
       <SearchMenu></SearchMenu>
       <div className="card-display">
         {notFound ? (

@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Sunflower", sans-serif;
   font-weight: 300;
@@ -19,6 +22,7 @@ body {
 .load-button {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 .poketitle {
