@@ -4,16 +4,13 @@ import { LoadingButton } from "@mui/lab";
 import SearchIcon from "@mui/icons-material/Search";
 import FilterSelectInput from "./FilterSelectInput";
 import { PokemonContext } from "../context/PokemonContext";
+import PokeTitle from "../images/poketitle.svg";
 function SearchMenu() {
   const { search, setSearch, loading, searchForPokemon } =
     useContext(PokemonContext);
   return (
     <div className="search-container">
-      <img
-        className="poketitle"
-        src="/assets/images/poketitle.svg"
-        alt="pokemon"
-      />
+      <img className="poketitle" src={PokeTitle} alt="pokemon" />
       <FilterSelectInput></FilterSelectInput>
       <div className="input-container">
         <input

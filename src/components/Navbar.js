@@ -1,14 +1,11 @@
 import React from "react";
 import "../styles/navbar.css";
+import PokeLogo from "../images/pokelogo.png";
 function Navbar() {
   return (
     <div className="navbar">
       <a href="#top-section">
-        <img
-          className="pokelogo"
-          src="/assets/images/pokelogo.png"
-          alt="pokeball-logo"
-        />
+        <img className="pokelogo" src={PokeLogo} alt="pokeball-logo" />
       </a>
     </div>
   );
