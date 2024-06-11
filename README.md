@@ -1,4 +1,4 @@
-# Pokemon App Documentation
+# Pokémon App Documentation
 
 ## Pokémon App Features
 
@@ -128,7 +128,7 @@ By default, the app displays all Pokémon available in the database. Users can e
 
 #### Step 1: Install `gh-pages` Package
 
-1. In the terminal, navigate to the root directory of the Pokemon application Install the `gh-pages` package by running:
+1. In the terminal, navigate to the root directory of the Pokémon application Install the `gh-pages` package by running:
 
    ```bash
    npm install gh-pages --save-dev
@@ -148,7 +148,7 @@ By default, the app displays all Pokémon available in the database. Users can e
 
 #### Step 3: Deploy to GitHub Pages
 
-1. In the terminal, run the following command to deploy the Pokemon application:
+1. In the terminal, run the following command to deploy the Pokémon application:
    ```bash
    npm run build
    npm run deploy
