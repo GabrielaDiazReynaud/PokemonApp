@@ -19,7 +19,6 @@ function SearchMenu() {
           value={search}
           onChange={(e) => {
             setSearch(e.target.value);
-            console.log(search);
           }}
         ></input>
       </div>

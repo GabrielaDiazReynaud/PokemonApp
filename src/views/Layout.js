@@ -106,7 +106,9 @@ function Layout({ children }) {
       .then((resp) => {
         pokemon.generation = resp.data.generation.name;
         if (genFilter.length > 0) {
-          if (genFilter.includes(resp.data.generation.name)) {
+          let formatGeneration =
+            "Generation " + getGenerationNumber(resp.data.generation.name);
+          if (genFilter.includes(formatGeneration)) {
             setPokemonOnDisplay([pokemon]);
           } else {
             setNotFound(true);
