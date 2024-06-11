@@ -1,3 +1,5 @@
+# Pokemon App Documentation
+
 ## Pokémon App Features
 
 This Pokémon app includes the following features:
@@ -122,7 +124,7 @@ By default, the app displays all Pokémon available in the database. Users can e
    git push -u origin master
    ```
 
-###Deploy to GitHub Pages
+### Deploy to GitHub Pages
 
 #### Step 1: Install `gh-pages` Package
 
