@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## Installing Project in Local Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Step 1: Clone Repository
 
-## Available Scripts
+1. Clone the repository to your local machine.
 
-In the project directory, you can run:
+   ```bash
+   git clone https://github.com/username/project-name.git
+   ```
 
-### `npm start`
+   Replace `username` with the GitHub username of the repository owner and `project-name` with the name of the repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Step 2 : Navigate to the Project Directory
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Navigate to the directory of the cloned repository.
 
-### `npm test`
+   ```bash
+   cd project-name
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   Replace `project-name` with the name of the cloned repository directory.
 
-### `npm run build`
+### Step 3: Install Project Dependencies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install project dependencies by running:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Run Project in Local Machine
 
-### `npm run eject`
+### Prerequisites: Have the project installed on local machine
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Step 1: Navigate to the Project Directory
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Navigate to the directory of the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   cd project-name
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   Replace `project-name` with the name of the project directory.
 
-## Learn More
+### Step 2: Start the Development Server
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Start the development server by running:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   npm run start
+   ```
 
-### Code Splitting
+## Pokémon App Features
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This Pokémon app includes the following features:
 
-### Analyzing the Bundle Size
+### 1. Look Up Pokémon by ID and Name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Users can search for Pokémon by their ID or name using the search functionality provided in the app. Simply enter the ID or name of the Pokémon in the search bar, and the app will display the corresponding Pokémon details if found.
 
-### Making a Progressive Web App
+### 2. Filter Pokémon by Generations
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Users can filter Pokémon by generations using the filter feature provided in the app. Select the desired generations from the dropdown menu, and the app will display only the Pokémon from that specific generation.
 
-### Advanced Configuration
+### 3. Display All Pokémon by Default
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By default, the app displays all Pokémon available in the database. Users can explore the entire list of Pokémon without any filters applied.
