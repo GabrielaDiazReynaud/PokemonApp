@@ -16,6 +16,15 @@ function Layout({ children }) {
   const isFetching = useRef(false);
 
   /**
+   * Extracts the number part from a generation string.
+   * @param {*} generation - Generation string
+   * @returns {string} - Th extracted number from Generation string
+   */
+  function getGenerationNumber(generation) {
+    const parts = generation.split("-");
+    return parts[1].toUpperCase();
+  }
+  /**
    *Fetches all Pokémon data from the PokéAPI and updates the state.
    *
    * @param {boolean} firstPokemon  [firstPokemon=false] - Indicates if this is the first fetch to display initial Pokémon.
@@ -146,8 +155,11 @@ function Layout({ children }) {
     onDisplay.current = 0;
     let filteredTmp = [];
     if (genFilter.length > 0) {
+      let formatGeneration = "";
       for (let i = 0; i < pokemons.length; i++) {
-        if (genFilter.includes(pokemons[i].generation)) {
+        formatGeneration =
+          "Generation " + getGenerationNumber(pokemons[i].generation);
+        if (genFilter.includes(formatGeneration)) {
           filteredTmp.push(pokemons[i]);
         }
       }

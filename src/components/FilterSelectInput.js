@@ -20,15 +20,15 @@ const MenuProps = {
 };
 
 const generations = [
-  "generation-i",
-  "generation-ii",
-  "generation-iii",
-  "generation-iv",
-  "generation-v",
-  "generation-vi",
-  "generation-vii",
-  "generation-viii",
-  "generation-ix",
+  "Generation I",
+  "Generation II",
+  "Generation III",
+  "Generation IV",
+  "Generation V",
+  "Generation VI",
+  "Generation VII",
+  "Generation VIII",
+  "Generation IX",
 ];
 
 export default function FilterSelectInput() {
