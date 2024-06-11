@@ -235,6 +235,7 @@ function Layout({ children }) {
         genFilter,
         setGenFilter,
         searchForPokemon,
+        getGenerationNumber,
       }}
     >
       {children}
