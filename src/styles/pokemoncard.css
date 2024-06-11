@@ -34,6 +34,7 @@
   font-size: 1.5rem;
   font-weight: 600;
   opacity: 0.4;
+  z-index: 3;
 }
 .pokemon-header {
   width: 100%;
@@ -41,14 +42,15 @@
   border-radius: 1.5rem;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .pokemon-sprite {
   width: 15rem;
   object-fit: cover;
-  position: relative;
-  bottom: -27px;
+  position: absolute;
+  bottom: -60px;
+  z-index: 4;
   filter: drop-shadow(13px 14px 4px rgba(0, 0, 0, 0.15));
-  overflow: visible !important;
 }
 .pokemon-body {
   padding: 0 1rem 0;

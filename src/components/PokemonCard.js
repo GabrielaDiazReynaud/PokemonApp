@@ -16,7 +16,7 @@ function PokemonCard({ pokemon }) {
       </div>
       <div className="pokemon-body">
         <p className="pokemon-name">{pokemon.name}</p>
-        <p className="ability-title">{pokemon.generation}</p>
+        <p className="ability-title">Abilities</p>
         <ul className="pokemon-abilities">
           {pokemon.abilities && pokemon.abilities.length > 0
             ? pokemon.abilities.map((ability, i) => {
