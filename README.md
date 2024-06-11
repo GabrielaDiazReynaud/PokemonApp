@@ -205,4 +205,4 @@ By default, the app displays all Pokémon available in the database. Users can e
   git push origin feature/feature-name
   ```
 
-### Step 4: Create a Pull Request in GitHub
+### Step 4: Create a Pull Request on GitHub
