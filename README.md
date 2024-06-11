@@ -163,3 +163,46 @@ By default, the app displays all Pokémon available in the database. Users can e
   npm run build
   npm run deploy
   ```
+
+  <br/>
+  <br/>
+
+## Making Changes to Application
+
+### Step 1 Create a New Branch
+
+- Before creating a new branch, ensure you are on the main (or master) branch:
+  ```bash
+  git checkout main
+  ```
+- Pull the latest changes from the remote repository:
+
+  ```bash
+  git pull origin main
+  ```
+
+- Create a new branch with a descriptive name:
+
+  ```bash
+  git checkout -b feature/feature-name
+  ```
+
+### Step 2 Comitting Changes
+
+- Add the files you have changed to the staging area:
+  ```bash
+  git add .
+  ```
+- Commit changes with a descriptive message:
+  ```bash
+  git commit -m "Add detailed description of your changes"
+  ```
+
+### Step 3 Pushing Changes
+
+- Push your changes to the remote repository
+  ```bash
+  git push origin feature/feature-name
+  ```
+
+### Step 4 Create a Pull Request in GitHub
