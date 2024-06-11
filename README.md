@@ -169,7 +169,7 @@ By default, the app displays all Pokémon available in the database. Users can e
 
 ## Making Changes to Application
 
-### Step 1 Create a New Branch
+### Step 1: Create a New Branch
 
 - Before creating a new branch, ensure you are on the main (or master) branch:
   ```bash
@@ -187,7 +187,7 @@ By default, the app displays all Pokémon available in the database. Users can e
   git checkout -b feature/feature-name
   ```
 
-### Step 2 Comitting Changes
+### Step 2: Comitting Changes
 
 - Add the files you have changed to the staging area:
   ```bash
@@ -198,11 +198,11 @@ By default, the app displays all Pokémon available in the database. Users can e
   git commit -m "Add detailed description of your changes"
   ```
 
-### Step 3 Pushing Changes
+### Step 3: Pushing Changes
 
 - Push your changes to the remote repository
   ```bash
   git push origin feature/feature-name
   ```
 
-### Step 4 Create a Pull Request in GitHub
+### Step 4: Create a Pull Request in GitHub
