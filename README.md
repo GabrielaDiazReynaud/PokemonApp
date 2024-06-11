@@ -74,11 +74,11 @@ By default, the app displays all Pokémon available in the database. Users can e
 
 ### Prerequisites
 
-Step 1: Create a New Repository on GitHub
+####Step 1: Create a New Repository on GitHub
 
 - Go to [GitHub](https://github.com) and create a new repository.
 
-Step 2: Initialize the Git Repository Locally
+####Step 2: Initialize the Git Repository Locally
 
 - Open the terminal or command prompt.
 - Navigate to the root directory of the project.
@@ -93,7 +93,7 @@ Step 2: Initialize the Git Repository Locally
   git init
   ```
 
-Step 3: Add and Commit the Project Files
+####Step 3: Add and Commit the Project Files
 
 - Add all the project files to the staging area.
 
@@ -107,7 +107,7 @@ Step 3: Add and Commit the Project Files
   git commit -m "Initial commit"
   ```
 
-Step 4: Link the Local Repository to GitHub
+####Step 4: Link the Local Repository to GitHub
 
 - Copy the URL of the new repository from GitHub. It should look like `https://github.com/username/repository-name.git`.
 - Add the remote URL to the local repository.
@@ -116,7 +116,7 @@ Step 4: Link the Local Repository to GitHub
   git remote add origin https://github.com/username/repository-name.git
   ```
 
-Step 5: Push Changes to GitHub
+####Step 5: Push Changes to GitHub
 
 - Push the local repository to GitHub.
 
