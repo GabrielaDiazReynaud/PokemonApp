@@ -48,7 +48,7 @@
   position: relative;
   bottom: -27px;
   filter: drop-shadow(13px 14px 4px rgba(0, 0, 0, 0.15));
-  overflow: visible;
+  overflow: visible !important;
 }
 .pokemon-body {
   padding: 0 1rem 0;
